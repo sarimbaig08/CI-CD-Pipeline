@@ -12,4 +12,4 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Greet greetUser
-        run: ../../run.sh
+        run: ./run.sh
