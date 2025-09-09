@@ -1,0 +1,15 @@
+name: greet
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  greetUser:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Greet greetUser
+        run: echo "Hello there"
