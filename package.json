@@ -1,0 +1,13 @@
+{
+  "name": "cicd-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
